@@ -3,7 +3,8 @@ $(document).ready(function(e) {
 
 document.addEventListener("deviceready",function(){
 	$('#btnlista').on('tap',function(){
-		$.ajax({
+	alert ("entraste a la lista");
+     $.ajax({
 			type: "POST",
 			url: "http://192.168.1.169/proyecto_catalogo/buscartodo.php",
 			data: "",
