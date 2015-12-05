@@ -7,10 +7,10 @@
 
     <!-- versionCode is optional and Android only -->
 
-    <name>Aplicacion seis </name>
+    <name>Proyecto Catalogo </name>
 
     <description>
-        Aplicacion de las Carreras del CBTis.No.16 
+        Catalogo Shoes Egle 
 	</description>
 
     <preference name="phonegap-version" value="3.1.0" />
