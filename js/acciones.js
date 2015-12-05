@@ -10,6 +10,7 @@ document.addEventListener("deviceready",function(){
 			data: "",
 			error: function(){alert("error en conexion");} ,
 			success: function(respuesta){
+				alert (respuesta);
 				var producto = JSON.parse(respuesta);
 			$('#contenido').empty();
 			for(var $x=0;$x < producto.tenis.length;$x++)
